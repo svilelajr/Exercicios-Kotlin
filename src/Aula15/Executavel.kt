@@ -8,14 +8,22 @@ fun main() {
             "Autor1",
             "2010",
             "1234",
-            2,
+            1,
             1.99
     )
 
     val livraria = Estoque()
 
     livraria.cadastrarLivro(exemplar)
+
     livraria.consultarLivro(100)
+    livraria.consultarLivro(200)
+
+
+    livraria.efetuarVenda(100)
+    livraria.efetuarVenda(100)
+    livraria.efetuarVenda(200)
+
 
 
 }
